@@ -3,10 +3,6 @@ body, html {
     background-color: pink;
 }
 
-body{
-  background-clip: url("https://giphy.com/gifs/jasonclarke-art-cat-dog-p2BUA5lTw4Jaw");
-  background-repeat: repeat-y;
-}
 
 /* The hero image */
 .hero-image {
