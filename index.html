@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title> Vote for cats or dogs  </title>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css" integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ" crossorigin="anonymous">
+    <script src="index.js" type="text/javascript"></script>
+  </head>
+
+  <body>
+
+    <div class="hero-image">
+      <div class="hero-text">
+        <h1>Let's settle this once and for all</h1><link href="https://fonts.googleapis.com/css?family=Passion+One" rel="stylesheet">
+        <p>What do you like more, cats or dogs?</p><link href="https://fonts.googleapis.com/css?family=Passion+One" rel="stylesheet">
+
+        <button onclick="toggleVoteContainer()">Vote</button>
+      </div>
+    </div>
+
+    <div id="vote-container">
+      <div id="cats-container" class="voting-container">
+        <div class="carousel" id= "cats-carousel" onClick="changeImage(this)">
+          <img src="https://upload.wikimedia.org/wikipedia/commons/e/ea/Contemplative-looking_cat.jpg" alt= "cat image"/>
+        </div>
+          <div class="likes">
+              <i class="fas fa-heart"onclick="increaseLikes(this)"><span class= "score">0</span></i>Likes
+
+        </div>
+      </div>
+
+      <div id="dogs-container" class="voting">
+        <div class="carousel" id= "dogs-carousel" onClick="changeImage(this)">
+          <img src= "https://animalso.com/wp-content/uploads/2017/01/german-shepherd-puppies_3.jpg" alt= "dog image"/>
+        </div>
+          <div class="likes">
+              <i class="fas fa-heart"onclick="increaseLikes(this)"><span class= "score">0</span></i>Likes
+
+        </div>
+      </div>
+
+    </div>
+
+  </body>
+
+
+
+
+
+
+
+
+
+</html>
