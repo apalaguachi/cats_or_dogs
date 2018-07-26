@@ -1,16 +1,17 @@
 body, html {
     height: 100%;
-    background-color: pink;
+    background-color: #957D9A;
 }
-
 
 /* The hero image */
 .hero-image {
     /* The image used */
     background-image: url("https://www.fremantle.wa.gov.au/sites/default/files/Dog-with-Cat_HD_animalplanethd.com_.jpg");
+    opacity: 0.84;
+    filter: alpha(opacity=84);
 
     /* Set a specific height */
-    height: 70%;
+    height: 80%;
 
     /* Position and center the image to scale nicely on all screens */
     background-position: center;
@@ -21,40 +22,44 @@ body, html {
 
 /* Place text in the middle of the image */
 .hero-text {
+    margin-top: 100px;
     text-align: center;
-    font-size: 22px;
+    font-size: 24.3px;
     position: absolute;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    color: #B301B7;
-    font-family: 'Passion One', cursive;
+    color: #C09800;
+   -webkit-text-stroke: 1px black;
+    font-family: 'Anton', sans-serif;
 }
 button {
-  color: white;
-  background: blue;
+  color: #FFEE97;
+  background: #C70039;
   border-radius: 10px;
-  width: 70px;
-  height: 30px;
+  width: 80px;
+  height: 40px;
   border: none;
-  font-size: 16.5px;
-  font-family: 'Passion One', cursive;
+  font-size: 26px;
+  font-family: 'Anton', sans-serif;
 
 }
 button:hover {
-  background: red;
+  background: #FF97C8;
 }
 
 .carousel {
   width: 50%;
-  height: 460px;
+  height: 500px;
   display: block;
   margin: 0 auto;
+
 }
 
 .carousel img {
   width: 100%;
   height: 100%;
+  border-radius: 40px;
 
 }
 
@@ -69,15 +74,18 @@ button:hover {
 }
 
 .likes{
-  font-size: 32px;
+  font-size: 36px;
   width: 50%;
   display: block;
   margin: 0 auto;
   text-align: center;
   margin-top: 30px;
   color: #297C9F;
+  font-family: 'Assistant', sans-serif;
+  -webkit-text-stroke: 1px black;
 
 }
+
 .fa-heart{
   color: #AE174C;
 
@@ -88,5 +96,5 @@ button:hover {
   color: red;
 }
 .score {
-  color: yellow;
+  color: #297C9F;
 }
